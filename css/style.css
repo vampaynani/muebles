@@ -1,0 +1,20 @@
+#selector{	 
+	height: 150px;
+	white-space: nowrap;
+	overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#selector img{
+	height: 120px;
+	margin:5px;
+}
+
+#closet{
+	white-space: nowrap;
+	overflow-x: scroll;
+    overflow-y: hidden;
+}
+#closet div{
+	display: inline;
+}
