@@ -16,5 +16,5 @@
     overflow-y: hidden;
 }
 #closet div{
-	display: inline;
+	display: inline-block;
 }
