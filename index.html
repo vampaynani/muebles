@@ -39,20 +39,22 @@
 <body>
 	<div class="container-fluid">
 		<div class="row-fluid">
-			<div class="span3">
+			<div class="sidebar">
+			
 				<form>
 					<fieldset>
 						<img id="logo" src="img/logo.png" />
 						<label>1. Elige el número de módulos que quieres para tu clóset</label>
-						<input type="text" class="slider" id="sliderCloset" value="1" data-slider-min="1" data-slider-max="20" data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal" data-slider-selection="after"data-slider-tooltip="hide">
+						<input type="text" class="slider" id="sliderCloset" value="1" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal" data-slider-selection="after"data-slider-tooltip="hide" >
 						<label>2. Arrastra los módulos a la posición que desees para visualizar tu clóset ideal</label>
-						<label>3. Recibe tu diseño en tu correo</label>
-						<input type="email" placeholder="correo" />
-						<input type="checkbox" /><label>Deseo que un representante se ponga en contacto conmigo</label>
+						<label id="labeltres">3. Recibe tu diseño en tu correo</label>
+						<input type="email" placeholder="correo" style="207px"/>
+						<input type="checkbox" /><label id="check"> Deseo que un representante se ponga en contacto conmigo</label>
  					</fieldset>
 				</form>
+				
 			</div>
-			<div class="span9">
+			<div class="span9 cuerpo">
 				<div id="closet">
 					<div><img src="img/01.png" ></div>
 				</div>

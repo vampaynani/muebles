@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
 	/* Init */
-	for (var i = 1; i <= 39; i++) {
+	for (var i = 1; i <= 38; i++) {
     	var imagen = $('<img>').attr({
 	    	src:'img/'+getZero(i)+'.png',
 	     	id:'modulo'+i,

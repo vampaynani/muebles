@@ -1,37 +1,86 @@
-form{
+
+ form{
+
 	color: #7a6850;
 }
-form #logo{
-	margin: 45px auto 30px;
+ fieldset{
+	width: 220px;
+	margin: 10px;
 }
-form input[type="checkbox"]{
-	display: inline-block;
+ form #logo{
+	display: block;
+	margin: 31px auto 30px;
 }
-form input[type="email"]{
+ form input[type="checkbox"],  #check{
+	display: inline;
+	margin-bottom: 5px;
+}
+ form input[type="email"]{
+	width:90%;
+	display: block;
+	margin: auto;
 	background-color: #f36a22;
 	border: none;
 	color: #7a6850;
+	margin-bottom: 20px;
 }
-form .slider-handle{
+form .slider{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+form #labeltres{
+	margin-top: 74px;
+	margin-bottom: 14px;
+}
+ form .slider-handle{
 	background-color: #6f6f6f;
 }
+form label{
+	font-size: 15px;
+
+}
 #selector{	 
-	height: 150px;
-	white-space: nowrap;
-	overflow-x: scroll;
-    overflow-y: hidden;
+			height: 318px;
+			padding: 55px;
+
+    background: #826547;
 }
 
 #selector img{
-	height: 120px;
-	margin:5px;
+	height: 94px;
+	margin:4px;
+}
+
+#selector #modulo19{
+	margin-right: 47px !important;
 }
 
 #closet{
+		height: 247px;
+		padding: 63px 102px;
 	white-space: nowrap;
-	overflow-x: scroll;
+	overflow-x: hidden;
     overflow-y: hidden;
+    	background: #F36A21;
+
 }
 #closet div{
 	display: inline-block;
+			height: 263px;
+			width: 94px;
+			float: left;
+
+}
+
+.sidebar{	
+ 	width: 238px !important;
+	padding: 10px;
+	float: left;
+}
+
+
+.cuerpo{
+	width:675px !important;
+	margin: 0px !important;
+
 }
