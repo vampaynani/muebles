@@ -1,6 +1,7 @@
 <?php
 $url = 'http://localhost/baum3/ordeny.../muebles/';
 $seller = 'info@ideasenorden.mx';
+$url = 'http://ideasenorden.mx/';
 if(isset($_REQUEST['mail']) && $_REQUEST['mail'] !== NULL){
 	$usrmail = $_REQUEST['mail'];
 	$mail = template( $_REQUEST['content'] );
