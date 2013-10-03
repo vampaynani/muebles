@@ -30,6 +30,14 @@ $( document ).ready(function() {
   		$('#closet div').on('dragover', enableDrop);
 		$('#closet div').on('drop', checkCollision); 
 	});
+	$('#send').on('click', function(e){
+		e.preventDefault();
+		var data = $('#data').serialize();
+		data += '&content=' + $('#closet').html().trim();
+		$.post('mail.php', data, function(response){
+			alert(response);
+		});
+	});
 
 	/* Functions */
 	var imgsrc = '';

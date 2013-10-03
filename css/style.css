@@ -1,21 +1,20 @@
 
  form{
-
 	color: #7a6850;
 }
  fieldset{
 	width: 220px;
 	margin: 10px;
 }
- form #logo{
+form #logo{
 	display: block;
 	margin: 31px auto 30px;
 }
- form input[type="checkbox"],  #check{
+form input[type="checkbox"],  #check{
 	display: inline;
 	margin-bottom: 5px;
 }
- form input[type="email"]{
+form input[type="email"]{
 	width:90%;
 	display: block;
 	margin: auto;
@@ -23,6 +22,29 @@
 	border: none;
 	color: #7a6850;
 	margin-bottom: 20px;
+}
+form input[type="button"]{
+	width:35%;
+	display: block;
+	margin: 30px 0;
+	background-color: #f36a22;
+	border: none;
+	color: #7a6850;
+	margin-bottom: 20px;
+	font-size: 18px;
+	float: right;
+}
+form ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #7a6850;
+}
+form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #7a6850;
+}
+form ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #7a6850;
+}
+form :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #7a6850;
 }
 form .slider{
 	margin-top:25px;
@@ -33,17 +55,17 @@ form #labeltres{
 	margin-bottom: 14px;
 }
  form .slider-handle{
-	background-color: #6f6f6f;
+	background-color: #6c6c6c;
+	background-image: linear-gradient(to bottom, #6c6c6c, #6f6f6f);
 }
 form label{
 	font-size: 15px;
 
 }
 #selector{	 
-			height: 318px;
-			padding: 55px;
-
-    background: #826547;
+	height: 318px;
+	padding: 55px;
+	background: #826547;
 }
 
 #selector img{
@@ -56,19 +78,19 @@ form label{
 }
 
 #closet{
-		height: 247px;
-		padding: 63px 102px;
+	height: 247px;
+	padding: 63px 102px;
 	white-space: nowrap;
 	overflow-x: hidden;
     overflow-y: hidden;
-    	background: #F36A21;
+    background: #F36A21;
 
 }
 #closet div{
 	display: inline-block;
-			height: 263px;
-			width: 94px;
-			float: left;
+	height: 263px;
+	width: 94px;
+	float: left;
 
 }
 
