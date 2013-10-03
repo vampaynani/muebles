@@ -46,10 +46,13 @@ $( document ).ready(function() {
 		console.log(imgsrc);
 	}
 	function enableDrop(e){
+		if(e.stopPropagation) e.stopPropagation();
 		if(e.preventDefault) e.preventDefault();
 		return false;
 	}
 	function checkCollision(e){
+		if(e.stopPropagation) e.stopPropagation();
+		if(e.preventDefault) e.preventDefault();
 		var img = $(this).find('img')[0];
 		$(img).attr('src', imgsrc);
 	}
