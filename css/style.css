@@ -56,7 +56,11 @@ form #labeltres{
 }
  form .slider-handle{
 	background-color: #6c6c6c;
-	background-image: linear-gradient(to bottom, #6c6c6c, #6f6f6f);
+	background-image: linear-gradient(bottom, #6c6c6c, #6f6f6f);
+	background-image: -webkit-linear-gradient(bottom, #6c6c6c, #6f6f6f);
+	background-image: -moz-linear-gradient(bottom, #6c6c6c, #6f6f6f);
+	background-image: -ms-linear-gradient(bottom, #6c6c6c, #6f6f6f);
+	background-image: -o-linear-gradient(bottom, #6c6c6c, #6f6f6f);
 }
 form label{
 	font-size: 15px;
